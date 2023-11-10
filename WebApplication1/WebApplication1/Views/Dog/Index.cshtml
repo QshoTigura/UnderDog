@@ -54,5 +54,12 @@
 
             </tr>
         }
+        <form asp-controller="Dog" asp-action="Index" method="get">
+            <p>
+                Breed: <input type="text" name="SearchStringBreed" />
+                Name: <input type="text" name="SearchStringName" />
+                <input type="submit" value="Filter" />
+            </p>
+        </form>
     </tbody>
 </table>
